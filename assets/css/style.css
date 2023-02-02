@@ -94,3 +94,9 @@
     transition: opacity 250ms ease-in-out 250ms;
   }
   
+  #image {
+    background: url("/assets/images/picture22.webp");
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+  }
