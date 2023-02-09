@@ -262,6 +262,45 @@ input[type="email"] {
   border: 2em;
 }
 
+
+#dubai {
+  position: relative;
+}
+#wealth {
+  position: relative;
+}
+#montjuic {
+  position: relative;
+}
+
+#bellagio {
+  position: relative;
+}
+#buckingham {
+  position: relative;
+}
+#king {
+  display: inline-flex;
+  height: 15px;
+  width: 15px;
+  background-color: #113f67;
+  border-radius: 30%;
+}
+
+.radio-pair {
+  display: flex;
+  color: #000;
+  justify-content: flex-start;
+  align-items: center;
+  width: 157px;
+  margin: 0 auto;
+}
+
+.form-section label {
+  display: block;
+  text-align: center;
+  margin: 3px;
+}
 /* create footer */
 
 .footer {
