@@ -174,3 +174,94 @@
     height: 100%;
     border-radius: 50%;
   }
+
+  /* Contact us */
+
+.form-section {
+  padding-top: 12%;
+  padding-bottom: 15%;
+  background: url("./images/water.webp");
+  background-size: cover;
+  width: 100%;
+}
+form h2 {
+  color: black;
+  text-align: center;
+  font-family: Merweather, sans-serif;
+}
+input[type="text"],
+input[type="email"] {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 15px auto;
+  display: block;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: #000;
+}
+
+#button {
+  background-color: #000;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 15px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  display: flow-root;
+}
+
+#button:hover,
+#button:focus {
+  color: #fff;
+  border: 2em;
+}
+/* create footer */
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  bottom: -19px;
+  background-color: rgba(66, 164, 230, 0.516);
+  color: black;
+  text-align: center;
+}
+
+footer p {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 45px;
+}
+
+footer > p {
+  font-size: x-small;
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+  border: 2px #6f6f6f;
+  background-color: rgba(74, 74, 74, 0.9);
+}
+
+.social {
+  height: 25px;
+  list-style: none;
+  text-align: center;
+  letter-spacing: 6px;
+  margin: 3px 27px 3px 27px;
+}
+
+.social > li {
+  display: inline;
+}
+
+.social i {
+  font-size: 150%;
+  margin: 5px 25px 5px 25px;
+  color: black;
+}
