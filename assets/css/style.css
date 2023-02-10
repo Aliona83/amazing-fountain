@@ -30,7 +30,7 @@ h1 {
   font-size: 33px;
 }
 .logo {
-  font-size: 35px;
+  font-size: 41px;
 }
 h2 {
   font-family: Roboto sans-serif;
@@ -397,7 +397,7 @@ footer>p {
   color: black;
 }
 
-@media screen and (min-width: 320px) {
+ @media screen and (min-width: 320px) {
   .nav-toggle-label {
     display: none;
   }
@@ -410,7 +410,7 @@ footer>p {
   .logo {
     grid-column: 2 / 3;
   }
-
+  
   nav {
     all: unset;
     grid-column: 3 / 4;
@@ -453,4 +453,5 @@ footer>p {
   nav a:hover::before {
     transform: scale(1, 1);
   }
+
 }
