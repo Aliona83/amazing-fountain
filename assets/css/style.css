@@ -270,7 +270,9 @@ p {
 form h2 {
   color: black;
   text-align: center;
-  font-family: Merweather, sans-serif;
+  font-family: Inter, sans-serif;
+  font-weight: bolder;
+    font-size: 32px
 }
 
 input[type="text"],
@@ -290,25 +292,28 @@ input[type="email"] {
 }
 
 #button {
-  background-color: #4169E1;
+  background-color: #607bcdc4;
   color: #fff;
   padding: 14px 20px;
   margin: 15px auto;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   width: 50%;
   display: flow-root;
+  font-size: 20px;
 }
 
 #button:hover,
 #button:focus {
   color: #fff;
-  border: 2em;
+  border: 2em 
+  
 }
 
 
 #dubai {
   position: relative;
+ 
 }
 #wealth {
   position: relative;
@@ -343,7 +348,9 @@ input[type="email"] {
 .form-section label {
   display: block;
   text-align: center;
-  margin: 3px;
+  margin: 6px;
+  font-weight: bold;
+  white-space: nowrap;
 }
 /* create footer */
 
