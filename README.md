@@ -55,6 +55,19 @@ This is my first project with Code Institute. This project is about the most bea
  ![mobile gallery wireframe](assets/images/wireframemobile1.png)
  ![mobile contact wireframe](assets/images/wireframemobile.png)
 
+### Colour Sheme
+The colors were chosen as they complemented the light blue and purple color of the picture on the main page.The colour palette was created using the [Coolors](https://coolors.co/adb2dc-898fbf-b5caec-607bcd-000000-ffffff)
+![Colour sheme](assets/images/coolors.png)
+
+### Typography
+
+Typography
+[Google Fonts](https://fonts.google.com/about) was used for the following fonts:
+
+Roboto is used for headings on the site. It is a serif font.
+Inter is used for the title on the site. It is a sans-serif font.
+
+### Imagery
 ## Features
 ***
 The site contains common features such as a navigation bar and footer, familiar to all internet users. the user can feel comfortable exploring the pages, make return visits, and enjoy a positive experience.
