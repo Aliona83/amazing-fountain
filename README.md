@@ -27,10 +27,15 @@ This is my first project with Code Institute. This project is about the most bea
 * As a creator, I want it to be convenient and easy for the user to use the site.
  * As a creator, I want the user to be able to get interesting facts about fountains.
  * As  creater, I want the user to be able to see pictures of the fountains.
+ * As creater, I want to provide clear information for potential visitors.
 
  ## Target Audience
  ***
- * 
+ * As a user, I want to get clear and useful knowledges.
+ * As a user, I want to easily navigate from page to page across all devices.
+ * As a user, I to be able to be easily navigate through this site.
+ * As a user, I want to be able to access their social media links.
+
 
 
  ## Design
@@ -38,9 +43,46 @@ This is my first project with Code Institute. This project is about the most bea
 
  #### Wireframes
 
+ Wireframes were created for mobile and desktop.
+
+  * Desktop wireframes
  ![desktop wireframe home page](assets/images/wireframedesktop2.png)
  ![wireframe gallery page](assets/images/wireframedesktop.png)
  ![wireframe feedback page](assets/images/wireframedesktop1.png)
+
+  * Mobile wireframes
  ![mobile home page wireframe](assets/images/wireframemobile2.png)
  ![mobile gallery wireframe](assets/images/wireframemobile1.png)
- 1[mobile contact wireframe](assets/images/wireframemobile.png)
+ ![mobile contact wireframe](assets/images/wireframemobile.png)
+
+## Features
+***
+The site contains common features such as a navigation bar and footer, familiar to all internet users. the user can feel comfortable exploring the pages, make return visits, and enjoy a positive experience.
+
+### Logo
+### Navigation Buttons
+### Gallery
+
+
+
+
+ ## Deployment & Local Deployment
+ ***
+ #### Deployment
+ * Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in/Sign Up to Github.
+2. Find the Castleisland-Christmas-Markets repository.
+3. Go to Settings > Pages.
+4. In the Source section, choose Main from the drop down select branch menu. Select Root from the drop down select folder menu.
+5. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+#### Local Deployment
+
+ * How to Clone
+
+1. Log in/Sign Up to Github.
+2. Find the Castleisland-Christmas-Markets repository.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
