@@ -1,20 +1,20 @@
 # Table of Content
 
-## Project Goals
-## Target Audience
-## Design
+* Project Goals
+* Target Audience
+* Design
   * Wireframes
   * Colour Scheme
   * Typography
   * Imagery
-## Features
+* Features
    * General Features on each page
-## Technologies Used
-## Remote & Local Development
+ Technologies Used
+* Remote & Local Development
   * How to Fork
   * How to Cone
-## Testing
-## Credit
+* Testing
+* Credit
 
 # Amazing Fountain
 ***
@@ -31,3 +31,16 @@ This is my first project with Code Institute. This project is about the most bea
  ## Target Audience
  ***
  * 
+
+
+ ## Design
+ ***
+
+ #### Wireframes
+
+ ![desktop wireframe home page](assets/images/wireframedesktop2.png)
+ ![wireframe gallery page](assets/images/wireframedesktop.png)
+ ![wireframe feedback page](assets/images/wireframedesktop1.png)
+ ![mobile home page wireframe](assets/images/wireframemobile2.png)
+ ![mobile gallery wireframe](assets/images/wireframemobile1.png)
+ 1[mobile contact wireframe](assets/images/wireframemobile.png)
