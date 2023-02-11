@@ -62,6 +62,7 @@ The site contains common features such as a navigation bar and footer, familiar 
 ### Logo
 ### Navigation Buttons
 ### Gallery
+### Contact Uss
 
 
 

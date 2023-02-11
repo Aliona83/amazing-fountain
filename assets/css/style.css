@@ -1,5 +1,5 @@
 :root {
-  --background: #9296b7bf;
+  --background: #adb2dcbf;
 }
 
 *,
@@ -30,7 +30,8 @@ h1 {
   font-size: 33px;
 }
 .logo {
-  font-size: 41px;
+  font-size: 40px;
+  text-align: center;
 }
 h2 {
   font-family: Roboto sans-serif;
@@ -63,11 +64,13 @@ nav li {
 nav a {
   color: black;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
- right: -10rem;
+  right: -10rem;
+  font-weight: bold
+
 }
 
 nav a:hover {
