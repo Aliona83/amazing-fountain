@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 #image {
-  background: url("/assets/images/picture22.webp");
+  background: url("/assets/images/mainPicture.webp");
   height: 550px;
   background-size: cover;
   background-position: center;
@@ -213,7 +213,7 @@ hr {
 }
 
 #circle-cover {
-  background: url("/assets/images/cyrcle2.jpg") no-repeat, center center;
+  background: url("/assets/images/cyrclePicture.jpg") no-repeat, center center;
   height: 100%;
   border-radius: 50%;
 }
@@ -240,13 +240,13 @@ hr {
   border-radius: 15px 15px 0 0;
 }
 .box-1 {
-  background-image: url("/assets/images/bellagio200.webp");
+  background-image: url("/assets/images/bellagio.webp");
 }
 .box-2 {
-  background-image: url("/assets/images/buckingham\ fountain.webp");
+  background-image: url("/assets/images/buckinghamFountain.webp");
 }
 .box-3 {
-  background-image: url("/assets/images/kngfahd’s.webp");
+  background-image: url("/assets/images/kingFahd.webp");
 }
 .box-4 {
   background-image: url("/assets/images/dubai.webp");

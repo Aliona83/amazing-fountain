@@ -46,18 +46,24 @@ This is my first project with Code Institute. This project is about the most bea
  Wireframes were created for mobile and desktop.
 
   * Desktop wireframes
- ![desktop wireframe home page](assets/images/wireframedesktop2.png)
- ![wireframe gallery page](assets/images/wireframedesktop.png)
- ![wireframe feedback page](assets/images/wireframedesktop1.png)
+
+ ![desktop wireframe home page](readmeImages/wireframeDesktopHome.png)
+
+ ![wireframe gallery page](readmeImages/wireframeDesktopGallery.png)
+
+ ![wireframe feedback page](readmeImages/wireframeDesktopFeedback.png)
 
   * Mobile wireframes
- ![mobile home page wireframe](assets/images/wireframemobile2.png)
- ![mobile gallery wireframe](assets/images/wireframemobile1.png)
- ![mobile contact wireframe](assets/images/wireframemobile.png)
+
+ ![mobile home page wireframe](readmeImages/wireframeMobileHome.png)
+
+ ![mobile gallery wireframe](readmeImages/wireframeMobileGallery.png)
+ 
+ ![mobile contact wireframe](readmeImages/wireframeMobileFeedback.png)
 
 ### Colour Sheme
 The colors were chosen as they complemented the light blue and purple color of the picture on the main page.The colour palette was created using the [Coolors](https://coolors.co/adb2dc-898fbf-b5caec-607bcd-000000-ffffff)
-![Colour sheme](assets/images/coolors.png)
+![Colour sheme](readmeImages/colours.png)
 
 ### Typography
 
