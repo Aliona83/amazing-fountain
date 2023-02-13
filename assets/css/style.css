@@ -126,14 +126,14 @@ nav a:hover {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
-
+/* header image */
 #image {
   background: url("/assets/images/mainPicture.webp");
   height: 550px;
   background-size: cover;
   background-position: center;
 }
-
+ /* section about fountains */
 .image-outer {
   height: 40px;
   width: 90%;
