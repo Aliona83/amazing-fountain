@@ -373,7 +373,7 @@ footer p {
   margin-left: 45px;
 }
  p {
-  margin: 25px;
+  margin: 20px;
  }
 footer>p {
   font-size: small;
@@ -418,10 +418,12 @@ footer>p {
     margin: 0;
   }
   #left-fact, #right-fact {
+    height: 700px;
     width: 100%;
     float: left;
-    padding: 0;
-  }
+    padding: 5px;
+}
+  
   #center-fact {
    clear:both;
    width: 100%;
@@ -430,24 +432,53 @@ footer>p {
   }
   #circle {
   position: relative;
+  
   }
   hr {
     display: none;
   }
 }
   @media screen and (max-width: 320px) {
-
-    .social i {
-      font-size: 150%;
-      margin: 5px 0px 0px;
-      color: black;
-  }
-.container {
-  display: flex;
-
+   
+    .logo {
+    font-size: 27px;
+    
+    }
+    #welcome {
+      font-size: 27px;
+    }
+     
+.right-fact-heading h2 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 20px;
 }
-.card-image{
-  
+.left-fact-heading h2 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 20px;
+}
+.right-fact-heading p {
+  text-indent: 30px;
+  text-align: center;
+}
+.left-fact-heading p {
+  text-align: left;
+  text-indent: 30px;
+}
+ #center-fact {
+display: none;
+}     
+.social i {
+font-size: 150%;
+margin: 5px 0px 0px;
+color: black;
+}
+.container {
+display: flex;
+}
+.footer {
+padding: 5px;
 }
   }
  
