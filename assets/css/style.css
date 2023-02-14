@@ -275,7 +275,7 @@ form h2 {
   text-align: center;
   font-family: Inter, sans-serif;
   font-weight: bolder;
-    font-size: 32px
+    font-size: 35px
 }
 
 input[type="text"],
@@ -340,11 +340,12 @@ input[type="email"] {
 }
 
 .radio-pair {
+  background-color: #4a96d845;
   display: flex;
   color: #000;
   justify-content: flex-start;
   align-items: center;
-  width: 157px;
+  width: 400px; 
   margin: 0 auto;
 }
 
@@ -352,8 +353,8 @@ input[type="email"] {
   display: block;
   text-align: center;
   margin: 6px;
-  font-weight: bold;
   white-space: nowrap;
+  font-size: 25px;
 }
 /* create footer */
 
@@ -418,10 +419,10 @@ footer>p {
     margin: 0;
   }
   #left-fact, #right-fact {
-    height: 700px;
+    /* height: 700px; */
     width: 100%;
     float: left;
-    padding: 5px;
+    padding: 15px;
 }
   
   #center-fact {
@@ -438,16 +439,35 @@ footer>p {
     display: none;
   }
 }
-  @media screen and (max-width: 320px) {
-   
+  @media screen and (max-width: 350px) {
     .logo {
     font-size: 27px;
-    
+    }
+    h1 {
+      margin-left: 35px;
     }
     #welcome {
       font-size: 27px;
     }
-     
+    form h2 {
+    font-size: 18px;
+    margin-top: 48px;
+    font-weight: bolder;
+   }  
+   .contact-h2 {
+   font-size: 28px;
+   }
+   .radio-pair {
+    background-color: #6098c945;
+    margin-left: 63px;
+   }
+   .form-section label {
+    display: block;
+    text-align: center;
+    margin: 6px;
+    white-space: nowrap;
+    font-size: 15px;
+  }
 .right-fact-heading h2 {
   text-align: left;
   font-size: 22px;
@@ -469,18 +489,27 @@ footer>p {
  #center-fact {
 display: none;
 }     
-.social i {
-font-size: 150%;
-margin: 5px 0px 0px;
-color: black;
-}
-.container {
-display: flex;
+.card-image {
+  width: 200px;
+  height: 200px;
+
 }
 .footer {
 padding: 5px;
 }
+.social i {
+  font-size: 150%;
+  margin: 5px 0px 0px;
+  color: black;
   }
- 
+  }
+  @media screen and (max-width: 480px) {
+
+    .logo {
+      font-size: 30px;
+      }
+
+
+  }
 
   
