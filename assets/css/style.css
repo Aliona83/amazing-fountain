@@ -128,7 +128,7 @@ nav a:hover {
 }
 /* header image */
 #image {
-  background: url("/assets/images/mainPicture.webp");
+  background: url("../images/mainPicture.webp");
   height: 550px;
   background-size: cover;
   background-position: center;
@@ -172,12 +172,10 @@ hr {
 }
 
 .right-fact-heading {
-  width: 75%;
   float: left;
   line-height: 20px;
   clear: both;
-  margin-bottom: 20px;
-  text-indent: 40px;
+  text-indent: 20px; 
 }
 
 .right-fact-heading h2 {
@@ -213,7 +211,7 @@ hr {
 }
 
 #circle-cover {
-  background: url("/assets/images/cyrclePicture.jpg") no-repeat, center center;
+  background: url("../images/cyrclePicture.jpg") no-repeat, center center;
   height: 100%;
   border-radius: 50%;
 }
@@ -245,16 +243,16 @@ hr {
   background-image: url("../images/buckinghamFountain.webp");
 }
 .box-3 {
-  background-image: url("/assets/images/kingFahd.webp");
+  background-image: url("../images/kingFahd.webp");
 }
 .box-4 {
-  background-image: url("/assets/images/dubai.webp");
+  background-image: url("../images/dubai.webp");
 }
 .box-5 {
-  background-image: url("/assets/images/wealth.webp");
+  background-image: url("../images/wealth.webp");
 }
 .box-6 {
-  background-image: url("/assets/images/montjuic.webp");
+  background-image: url("../images/montjuic.webp");
 }
 p {
   margin: 10px
@@ -264,7 +262,7 @@ p {
 .form-section {
   padding-top: 12%;
   padding-bottom: 15%;
-  background: url("/assets/images/water.webp");
+  background: url("../images/water.webp");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -426,6 +424,142 @@ footer>p {
       display: none;
     }
   }
+  @media screen and (max-width:768px) {
+    .logo {
+      font-size: 40px;
+      }
+      h1 {
+        margin-left: 35px;
+      }
+      #welcome {
+        font-size: 42px;
+      }
+      form h2 {
+      font-size: 23px;
+      margin-top: 48px;
+      font-weight: bolder;
+     }  
+     .contact-h2 {
+     font-size: 28px;
+     }
+     .radio-pair {
+      background-color: #6098c945;
+      width: 200px;
+     }
+     .form-section label {
+      display: block;
+      text-align: center;
+      margin: 6px;
+      white-space: nowrap;
+      font-size: 15px;
+    }
+   
+     .right-fact-heading h2 {
+     text-align: left;
+     font-size: 32px;
+     line-height: 32px;
+     margin-left: 59px;
+    }
+     .left-fact-heading h2 {
+     text-align: left;
+     font-size: 32px;
+     line-height: 32px;
+     margin-left: -30px;
+   } 
+    .right-fact-heading p {
+    text-indent: 30px;
+    text-align: left;
+    margin-left: 59px;
+   }
+   .left-fact-heading p {
+    text-align: left;
+    text-indent: 30px;
+    margin-left: -30px;
+   }
+   #center-fact {
+   clear: both;
+   width: 100%;
+   padding-block-end: 45px
+  }     
+  
+  .card {
+    margin: 12px 0;
+  }
+   .card-image {
+    width: 300px;
+    height: 300px;
+  }
+   }
+   
+   @media screen and (max-width:480px) {
+    .logo {
+      font-size: 32px;
+      }
+      h1 {
+        margin-left: 35px;
+      }
+      #welcome {
+        font-size: 32px;
+      }
+      form h2 {
+      font-size: 23px;
+      margin-top: 48px;
+      font-weight: bolder;
+     }  
+     .contact-h2 {
+     font-size: 37px;
+     }
+     .radio-pair {
+      background-color: #6098c945;
+      margin-left: 7 rem;
+     }
+     .form-section label {
+      display: block;
+      text-align: center;
+      margin: 6px;
+      white-space: nowrap;
+      font-size: 15px;
+    }
+     .right-fact-heading h2 {
+     text-align: left;
+     font-size: 32px;
+     line-height: 32px;
+     margin-left: 59px;
+    }
+     .left-fact-heading h2 {
+     text-align: left;
+     font-size: 32px;
+     line-height: 32px;
+     margin-left: -30px;
+   } 
+    .right-fact-heading p {
+    text-indent: 30px;
+    text-align: left;
+    margin-left: 59px;
+   }
+   .left-fact-heading p {
+    text-align: left;
+    text-indent: 30px;
+    margin-left: -30px;
+   }
+   #center-fact {
+   display: none;
+
+  }     
+  .card {
+    margin: 12px 0;
+  }
+   .card-image {
+    width: 330px;
+    height: 330px;
+  }
+  .social i {
+    font-size: 150%;
+    margin: 5px 0px 0px;
+    color: black;
+    }
+   }
+     
  @media screen and (max-width: 380px) {
     .logo {
     font-size: 27px;
@@ -435,6 +569,9 @@ footer>p {
     }
     #welcome {
       font-size: 27px;
+    }
+    input[type="text"], input[type="email"] {
+      width: 50%;
     }
     form h2 {
     font-size: 18px;
@@ -493,74 +630,7 @@ padding: 5px;
   }
   }
   
- @media screen and (max-width:480px) {
-  .logo {
-    font-size: 32px;
-    }
-    h1 {
-      margin-left: 35px;
-    }
-    #welcome {
-      font-size: 32px;
-    }
-    form h2 {
-    font-size: 23px;
-    margin-top: 48px;
-    font-weight: bolder;
-   }  
-   .contact-h2 {
-   font-size: 28px;
-   }
-   .radio-pair {
-    background-color: #6098c945;
-    margin-left: 63px;
-   }
-   .form-section label {
-    display: block;
-    text-align: center;
-    margin: 6px;
-    white-space: nowrap;
-    font-size: 15px;
-  }
-   .right-fact-heading h2 {
-   text-align: left;
-   font-size: 32px;
-   line-height: 32px;
-   margin-left: 59px;
-  }
-   .left-fact-heading h2 {
-   text-align: left;
-   font-size: 32px;
-   line-height: 32px;
-   margin-left: -30px;
- } 
-  .right-fact-heading p {
-  text-indent: 30px;
-  text-align: left;
-  margin-left: 59px;
- }
- .left-fact-heading p {
-  text-align: left;
-  text-indent: 30px;
-  margin-left: -30px;
- }
- #center-fact {
- display: none;
-}     
-.card {
-  margin: 12px 0;
-}
- .card-image {
-  width: 330px;
-  height: 330px;
-}
-.social i {
-  font-size: 150%;
-  margin: 5px 0px 0px;
-  color: black;
-  }
-
- }
+ 
  
   
    
