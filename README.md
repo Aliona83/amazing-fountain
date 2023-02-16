@@ -195,6 +195,7 @@ The site was tested on numerous devices and it worked well on all. The devices u
  | Contact us form can not be submitted without required details| Fill in certain fields in form to check if it's allowed to submit| Pass|
  | Contact us form redirects to thankyou.html | Fill in all form fields and click submit | Pass |
  | Website works with different browsers | Tested Chrome, Firefox, Safari | Pass |
+ | Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with iphone 11, Ipad Air| Faile |
 
  ## Credit 
  ***
