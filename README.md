@@ -9,12 +9,14 @@
   * Imagery
 * Features
    * General Features on each page
- Technologies Used
+* Technologies Used
 * Remote & Local Development
   * How to Fork
   * How to Cone
 * Testing
 * Credit
+
+![](readmeImages/iAmResponsive.png)
 
 # Amazing Fountain
 ***
@@ -105,12 +107,34 @@ Featured on all three pages, the full responsive navigation bar includes links t
   ![Facts](readmeImages/FactsAboutFountains.png)
 ### Gallery
 Gallery page is a page where the user can see beautiful pictures of each popular fountain, above each picture there will be a small description about the fountain,such as where is located , when it appeard and in which countrt or city is located.
+
 ![Gallery](readmeImages/gallery.png)
 
 ### Contact Us
+  On the page "Contact Us" user will be able to choose his favorite fountain, which even in the future he will be able to visit.
+
+  ![Contact Us](readmeImages/feedbackForm.png)
 
 
 
+### Footer 
+This is the regular footer with the social icons displayed:
+
+![Footer](readmeImages/footer.png)
+
+  ## Technologies Used
+  ***
+
+  * HTML5 - basic coding to build a website for Amazing Fountain.
+  * CSS3 - use for styling the website.
+  * Gitpod - used to create website and writing code.
+  * GitHub - to store and save the process and files used on the website.
+  * [Pexel](https://www.pexels.com/ru-ru/)- got all images for website .
+  * [HTML Validator](https://validator.w3.org/) - to validate HTML.
+  * [CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate CSS.
+  * [I am Responsive](https://ui.dev/amiresponsive) - was to used to create a shot to see responsiveness on different devices.
+  * [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAxbefBhDfARIsAL4XLRoOUITVfOAhZoGiIudY76dcyjWwzW85ebwsCmrh0oyJ7BBf97dGoQ4aAhqOEALw_wcB) - to create Wireframes.
+  * [](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) - resources relating to layouts using Flexbox.
 
  ## Deployment & Local Deployment
  ***
@@ -132,7 +156,8 @@ Gallery page is a page where the user can see beautiful pictures of each popular
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-   * Fork the GitHub Repository
+
+* Fork the GitHub Repository
 
 1. Forking the GitHub Repository makes a copy of the original repository on our GitHub account; allowing us to view and/or make changes without affecting the original repository and can be done by using the following steps.
 
@@ -140,3 +165,36 @@ Gallery page is a page where the user can see beautiful pictures of each popular
 Once in the repository, navigate to the "Fork" button at the top right of the page; just above the settings button on the menu.
 3. You should now have a copy of the original repository in your GitHub account.
  
+ ## Testing 
+ ***
+
+The site had been tested in Chrome,Firefox without noticable trouble.
+The site was tested on numerous devices and it worked well on all. The devices used for testing were a ASUS Vivobook Laptop, an iMac, an iphone 11 iphone 6 and a Samsung s22.
+
+ * No issues found
+
+ ![HTML Validator](readmeImages/htmlValidator.png)
+
+ * no issues found
+
+ ![CSS Validator](readmeImages/cssValidator.png)
+
+ * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
+    * Mobile Home Page
+ ![Mobile Home Page](readmeImages/mobileTestHome.png)
+   *  Desktop Gallery Page
+ ![Desktop Gallery Page](readmeImages/desktopGallery.png)
+ 
+  * Manually check :
+
+ | Expacted Results | Test Taken | Pass/Fale |
+ |------------------| -----------| ------------|
+ | Navigation links to relevant pages| Click on ech navigation bar | Pass |
+ | 	Social media icons in the footer link to the correct 
+ |  external link and open in new tab | Click on ech footer icons | Pass |
+ | Contact us form can not be submitted without required details| Fill in certain fields in form to check if it's allowed to submit| Pass|
+ | Contact us form redirects to thankyou.html | Fill in all form fields and click submit | Pass |
+ | Website works with different browsers | Tested Chrome, Firefox, Safari | Pass |
+
+ ## Credit 
+ ***
