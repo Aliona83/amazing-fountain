@@ -27,7 +27,7 @@ body {
 header {
   background: var(--background);
   text-align: center;
-  position: fixed;
+  position: sticky;
   z-index: 999;
   width: 100%;
 }
@@ -150,13 +150,13 @@ nav a:hover {
 #left-fact {
   width: 25%;
   float: left;
-  
+  margin-left: -3em;
 }
 
 #right-fact {
   width: 25%;
   float: right;
-
+  margin-right: 2em;
 }
 
 #center-fact {
@@ -199,12 +199,12 @@ hr {
 }
 .right-fact-heading p {
   text-align: justify;
-  width: 18em;
+  width: 23em;
   text-indent: 8px;
 }
 .left-fact-heading p {
   text-align: justify;
-  width: 18em;
+  width: 23em;
   text-indent: 8px;
 }
 #welcome {
@@ -213,19 +213,19 @@ hr {
 }
 
 #circle {
-  width: 330px;
-  height: 330px;
+  width: 400px;
+  height: 400px;
   padding: 15px;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   border-radius: 50%;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 20em;
 }
 
 #circle-cover {
-  background: url("../images/cyrclePicture.jpg") no-repeat, center center;
+  background: url("../images/circleOnejpg.jpg") no-repeat, center center;
   height: 100%;
   border-radius: 50%;
 }
