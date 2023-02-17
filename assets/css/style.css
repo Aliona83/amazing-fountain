@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Inter&family=Roboto&display=swap");
+html {
+  height: 100%;
+}
 :root {
   --background: #adb2dcbf;
 }
@@ -14,6 +17,10 @@ body {
   font-family: Inter, sans-serif;
   font-weight: 400;
   background-color: #b5caec69;
+  min-height: 100%;
+
+  display: grid;
+  gap: auto / 1em 1fr 1em;
 }
 
 /* navication style */
@@ -141,15 +148,15 @@ nav a:hover {
 }
 
 #left-fact {
-  width: 33%;
+  width: 25%;
   float: left;
-  padding: 50px;
+  
 }
 
 #right-fact {
-  width: 33%;
+  width: 25%;
   float: right;
-  padding: 50px;
+
 }
 
 #center-fact {
@@ -161,38 +168,45 @@ hr {
   border-top: 1px solid #898fbf;
   width: 100%;
   margin: 5px 0;
+  margin-left: 54px;
 }
 
 .left-fact-heading {
-  width: 75%;
+   width: 80%; 
   float: right;
-  line-height: 20px;
   clear: both;
   margin-bottom: 20px;
+  text-indent: 20px;
+  word-wrap: break-word;
 }
 
 .right-fact-heading {
+   width: 75%; 
   float: left;
-  line-height: 20px;
   clear: both;
   text-indent: 20px; 
 }
 
 .right-fact-heading h2 {
-  text-align: right;
-  font-size: 30px;
+  text-align: -webkit-center;
+  font-size: 28px;
   line-height: 24px;
 }
 .left-fact-heading h2 {
-  text-align: left;
-  font-size: 30px;
+  text-align: -webkit-center;
+  font-size: 28px;
   line-height: 24px;
 }
 .right-fact-heading p {
-  text-align: right;
-  text-indent: 40px;
+  text-align: justify;
+  width: 18em;
+  text-indent: 8px;
 }
-
+.left-fact-heading p {
+  text-align: justify;
+  width: 18em;
+  text-indent: 8px;
+}
 #welcome {
   text-align: center;
   font-size: 260%;
@@ -254,9 +268,7 @@ hr {
 .box-6 {
   background-image: url("../images/montjuic.webp");
 }
-p {
-  margin: 10px
-}
+
 /* Contact us */
 
 .form-section {
@@ -355,17 +367,17 @@ input[type="email"] {
 /* create footer */
 
 .footer {
-  position: fixed;
   width: 100%;
-  left: 0px;
-  bottom: -19px;
   background-color: #9296b7bf;
   color: black;
   text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  grid-column: 1 / -1;
 }
 
 footer p {
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   margin-left: 45px;
 }
@@ -382,11 +394,9 @@ footer>p {
 }
 
 .social {
-  height: 25px;
   list-style: none;
   text-align: center;
   letter-spacing: 6px;
-  margin: 3px 27px 3px 27px;
 }
 
 .social>li {
@@ -503,7 +513,7 @@ footer>p {
 
   
   /* For medium screen size from 768px wide and down */
-  @media screen and (max-width:768px) {
+  @media screen and (max-width: 690px) {
     .logo {
       font-size: 40px;
       }
@@ -565,8 +575,8 @@ footer>p {
     margin: 12px 0;
   }
    .card-image {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
   }
    }
    /* For small screen size from 480px wide and down */

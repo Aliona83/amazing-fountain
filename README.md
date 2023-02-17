@@ -10,10 +10,10 @@
 * Features
    * General Features on each page
 * Technologies Used
+* Testing
 * Remote & Local Development
   * How to Fork
   * How to Cone
-* Testing
 * Credit
 
 ![](readmeImages/iAmResponsive.png)
@@ -136,7 +136,40 @@ This is the regular footer with the social icons displayed:
   * [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAxbefBhDfARIsAL4XLRoOUITVfOAhZoGiIudY76dcyjWwzW85ebwsCmrh0oyJ7BBf97dGoQ4aAhqOEALw_wcB) - to create Wireframes.
   * [](https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/) - resources relating to layouts using Flexbox.
 
- ## Deployment & Local Deployment
+ 
+ ## Testing 
+ ***
+
+The site had been tested in Chrome,Firefox without noticable trouble.
+The site was tested on numerous devices and it worked well on all. The devices used for testing were a ASUS Vivobook Laptop, an iMac, an iphone 11 iphone 6 and a Samsung s22.
+
+ * No issues found
+
+ ![HTML Validator](readmeImages/htmlValidator.png)
+
+ * no issues found
+
+ ![CSS Validator](readmeImages/cssValidator.png)
+
+ * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
+    * Mobile Home Page
+ ![Mobile Home Page](readmeImages/mobileTestHome.png)
+   *  Desktop Gallery Page
+ ![Desktop Gallery Page](readmeImages/desktopGallery.png)
+ 
+  * Manually check :
+
+ | Expected Results | Test Taken | Pass/Fale |
+ |------------------| -----------| ------------|
+ | Navigation links to relevant pages| Click on each navigation bar | Pass |
+ | 	Social media icons in the footer link to the correct 
+ |  external link and open in new tab | Click on each footer icons | Pass |
+ | Contact us form can not be submitted without required details| Fill in certain fields in form to check if it's allowed to submit| Pass|
+ | Contact us form redirects to thankyou.html | Fill in all form fields and click submit | Pass |
+ | Website works with different browsers | Tested Chrome, Firefox, Safari | Pass |
+ | Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with iphone 11, Ipad Air| Faile |
+
+## Deployment & Local Deployment
  ***
  #### Deployment
  * Github Pages was used to deploy the live website. The instructions to achieve this are below:
@@ -165,37 +198,6 @@ This is the regular footer with the social icons displayed:
 Once in the repository, navigate to the "Fork" button at the top right of the page; just above the settings button on the menu.
 3. You should now have a copy of the original repository in your GitHub account.
  
- ## Testing 
- ***
-
-The site had been tested in Chrome,Firefox without noticable trouble.
-The site was tested on numerous devices and it worked well on all. The devices used for testing were a ASUS Vivobook Laptop, an iMac, an iphone 11 iphone 6 and a Samsung s22.
-
- * No issues found
-
- ![HTML Validator](readmeImages/htmlValidator.png)
-
- * no issues found
-
- ![CSS Validator](readmeImages/cssValidator.png)
-
- * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
-    * Mobile Home Page
- ![Mobile Home Page](readmeImages/mobileTestHome.png)
-   *  Desktop Gallery Page
- ![Desktop Gallery Page](readmeImages/desktopGallery.png)
- 
-  * Manually check :
-
- | Expacted Results | Test Taken | Pass/Fale |
- |------------------| -----------| ------------|
- | Navigation links to relevant pages| Click on ech navigation bar | Pass |
- | 	Social media icons in the footer link to the correct 
- |  external link and open in new tab | Click on ech footer icons | Pass |
- | Contact us form can not be submitted without required details| Fill in certain fields in form to check if it's allowed to submit| Pass|
- | Contact us form redirects to thankyou.html | Fill in all form fields and click submit | Pass |
- | Website works with different browsers | Tested Chrome, Firefox, Safari | Pass |
- | Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with iphone 11, Ipad Air| Faile |
-
  ## Credit 
+
  ***
