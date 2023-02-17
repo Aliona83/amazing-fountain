@@ -38,7 +38,7 @@ h1 {
 }
 .logo {
   font-size: 40px;
-  text-align: center;
+  /* text-align: center; */
 }
 h2 {
   font-family: Roboto sans-serif;
@@ -463,7 +463,7 @@ footer>p {
      
   }
   /* For medium screen size from 950px wide and down */
-  @media screen and (max-width:950px) {
+  /* @media screen and (max-width:480px) {
     h1 {
       font-size: 30px;
     }
@@ -511,19 +511,18 @@ footer>p {
     hr {
       display: none;
     }
-  }
+  } */
 
   
   /* For medium screen size from 768px wide and down */
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 520px) {
     .logo {
-      font-size: 40px;
+      font-size: 42px;
+      margin-left: 66px;
       }
-      h1 {
-        margin-left: 35px;
-      }
+     
       #welcome {
-        font-size: 42px;
+        font-size: 40px;
       }
       form h2 {
       font-size: 23px;
@@ -544,7 +543,6 @@ footer>p {
       white-space: nowrap;
       font-size: 15px;
     }
-   
      .right-fact-heading h2 {
      text-align: left;
      font-size: 32px;
@@ -558,15 +556,18 @@ footer>p {
      margin-left: -30px;
    } 
     .right-fact-heading p {
-    text-indent: 30px;
-    text-align: left;
-    margin-left: 59px;
-   }
+      text-align: left;
+      text-indent: 6px;
+      margin-left: 27px;
+      font-size: 18px;
+  }
    .left-fact-heading p {
     text-align: left;
-    text-indent: 30px;
-    margin-left: -30px;
-   }
+    text-indent: 6px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+   
    #center-fact {
    clear: both;
    width: 100%;
@@ -574,20 +575,20 @@ footer>p {
   }     
   
   .card {
-    margin: 12px 0;
+    margin-left: 12px ;
   }
    .card-image {
-    width: 270px;
-    height: 270px;
+    width: 450px;
+    height: 450px;
   }
-   }
+}
    /* For small screen size from 480px wide and down */
-   @media screen and (max-width:480px) {
+   @media screen and (max-width:450px) {
     .logo {
       font-size: 32px;
       }
       #welcome {
-        font-size: 34px;
+        font-size: 31px;
       }
       input[type="text"], input[type="email"] {
         width: 50%;
@@ -634,16 +635,23 @@ footer>p {
     text-indent: 8px;
     width: 100%;
     margin-left: 33px;
+   }  
+   #circle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 50%;
    }
-   #center-fact {
-   display: none;
-  }     
   .card {
-    margin: 12px 0;
+    margin-left: 18px;
   }
    .card-image {
-    width: 250px;
-    height: 250px;
+      width: 400px;
+      height: 400px;
+      
   }
 
   .social i {
@@ -653,8 +661,8 @@ footer>p {
   }
     }
     
-     /* For smallest screen size from 360px wide and down */
- @media screen and (max-width: 360px) {
+     /* For smallest screen size from 340px wide and down */
+ @media screen and (max-width: 400px) {
     .logo {
     font-size: 38px;
     }
@@ -708,19 +716,69 @@ footer>p {
   width: 100%;
   margin-left: 36px;
  }
- #center-fact {
- display: none;
-}     
-.card {
-  margin: 12px 0;
-}
- .card-image {
-  width: 250px;
-  height: 250px;
-}
+ #circle {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50%;
+ }  
 
+ .card-image {
+  width: 340px;
+  height: 340px;
+}
+.social i {
+  font-size: 116%;
+  color: black;
+  margin-top: 9px;
+}
   }
-  
+@media screen and (max-width: 350px) {
+  .card-image {
+    width: 285px;
+    height: 285px;
+}
+}
+@media screen and (max-width: 350px) {
+  .card-image {
+    width: 279px;
+    height: 279px;
+}
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    font-size: 28px;
+  }
+  #center-fact {
+    clear: both;
+    width: 100%;
+    padding-block-end: 45px
+   }     
+   #circle {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 50%;
+   }
+  .card {
+    margin-left: 18px;
+  }
+  .card-image {
+    width: 270px;
+    height: 270px;
+}
+.social i {
+  font-size: 116%;
+  color: black;
+  margin-top: 9px;
+}
+}
  
  
   
