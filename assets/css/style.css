@@ -20,7 +20,6 @@ body {
   min-height: 100%;
 
   display: grid;
-  gap: auto / 1em 1fr 1em;
 }
 
 /* navication style */
@@ -150,7 +149,7 @@ nav a:hover {
 #left-fact {
   width: 25%;
   float: left;
-  margin-left: -3em;
+  margin-left: -4em;
 }
 
 #right-fact {
@@ -188,12 +187,14 @@ hr {
 }
 
 .right-fact-heading h2 {
-  text-align: -webkit-center;
+ position: relative;
+ left: 36px;
   font-size: 28px;
   line-height: 24px;
 }
 .left-fact-heading h2 {
-  text-align: -webkit-center;
+  position: relative;
+ left: 36px;
   font-size: 28px;
   line-height: 24px;
 }
@@ -271,8 +272,7 @@ hr {
 /* Contact us */
 
 .form-section {
-  padding-top: 12%;
-  padding-bottom: 15%;
+ 
   background: url("../images/water.webp");
   background-size: cover;
   background-position: center;
@@ -366,13 +366,16 @@ input[type="email"] {
 /* create footer */
 
 .footer {
-  width: 100%;
+  /* width: 100%; */
   background-color: #9296b7bf;
-  color: black;
+  /* color: black; */
   text-align: center;
-  padding: 1rem;
-  margin-top: auto;
-  grid-column: 1 / -1;
+  /* padding: 1rem; */
+  /* margin-top: auto; */
+  /* grid-column: 1 / -1; */
+    clear: both;
+    position: relative;
+    height: 80px;
 }
 
 footer p {
@@ -404,13 +407,13 @@ footer>p {
 
 .social i {
   font-size: 150%;
-  margin: 5px 25px 5px 25px;
+  margin: 10px;
   color: black;
 }
 /* media queries */
 
-/* For large to medium screen size from 1200px wide and down */
-@media screen and (max-width:1200px) {
+/* For large to medium screen size from 1100px wide and down */
+@media screen and (max-width:1100px) {
     h1 {
       font-size: 30px;
     }
@@ -476,7 +479,7 @@ footer>p {
     #center-fact {
       clear: both;
       width: 100%;
-      padding-block-end: 45px
+      padding-block-end: 45px;
      }     
      
     #left-fact, #right-fact {
@@ -583,21 +586,23 @@ footer>p {
     .logo {
       font-size: 32px;
       }
-      h1 {
-        margin-left: 35px;
-      }
       #welcome {
-        font-size: 32px;
+        font-size: 34px;
+      }
+      input[type="text"], input[type="email"] {
+        width: 50%;
       }
       form h2 {
-      font-size: 23px;
+      font-size: 18px;
       margin-top: 48px;
       font-weight: bolder;
      }  
-     
+     .contact-h2 {
+     font-size: 28px;
+     }
      .radio-pair {
       background-color: #6098c945;
-      margin-left: 7 rem;
+      margin-left: 63px;
      }
      .form-section label {
       display: block;
@@ -607,54 +612,54 @@ footer>p {
       font-size: 15px;
     }
      .right-fact-heading h2 {
-     text-align: left;
-     font-size: 32px;
-     line-height: 32px;
-     margin-left: 59px;
+     text-align: center;
+     font-size: 28px;
+     line-height: 20px;
+     margin-left: -4px;
     }
      .left-fact-heading h2 {
-     text-align: left;
-     font-size: 32px;
-     line-height: 32px;
-     margin-left: -30px;
+     text-align: center;
+     font-size: 28px;
+     line-height: 20px;
    } 
     .right-fact-heading p {
-    text-indent: 30px;
-    text-align: left;
-    margin-left: 59px;
+    font-size: 19px;
+    text-indent: 8px;
+    width: 100%;
+    
    }
    .left-fact-heading p {
+    font-size: 19px;
     text-align: left;
-    text-indent: 30px;
-    margin-left: -30px;
+    text-indent: 8px;
+    width: 100%;
+    margin-left: 33px;
    }
    #center-fact {
    display: none;
-
   }     
   .card {
     margin: 12px 0;
   }
    .card-image {
-    width: 330px;
-    height: 330px;
+    width: 250px;
+    height: 250px;
   }
+
   .social i {
-    font-size: 150%;
-    margin: 5px 0px 0px;
+    font-size: 142%;
     color: black;
+    margin-top: 9px;
+  }
     }
-   }
-     /* For smallest screen size from 380px wide and down */
- @media screen and (max-width: 380px) {
+    
+     /* For smallest screen size from 360px wide and down */
+ @media screen and (max-width: 360px) {
     .logo {
-    font-size: 27px;
-    }
-    h1 {
-      margin-left: 35px;
+    font-size: 38px;
     }
     #welcome {
-      font-size: 27px;
+      font-size: 34px;
     }
     input[type="text"], input[type="email"] {
       width: 50%;
@@ -679,22 +684,29 @@ footer>p {
     font-size: 15px;
   }
    .right-fact-heading h2 {
-   text-align: left;
-   font-size: 22px;
+   text-align: center;
+   font-size: 25px;
    line-height: 20px;
+   margin-left: -4px;
   }
    .left-fact-heading h2 {
-   text-align: left;
-   font-size: 22px;
+   text-align: center;
+   font-size: 25px;
    line-height: 20px;
  } 
   .right-fact-heading p {
-  text-indent: 30px;
+  font-size: 18px;
+  text-indent: 8px;
   text-align: left;
+  width: 100%;
+  margin-left: 36px;
  }
  .left-fact-heading p {
+  font-size: 18px;
   text-align: left;
-  text-indent: 30px;
+  text-indent: 8px;
+  width: 100%;
+  margin-left: 36px;
  }
  #center-fact {
  display: none;
@@ -706,14 +718,7 @@ footer>p {
   width: 250px;
   height: 250px;
 }
-.footer {
-padding: 5px;
-}
-.social i {
-  font-size: 150%;
-  margin: 5px 0px 0px;
-  color: black;
-  }
+
   }
   
  
