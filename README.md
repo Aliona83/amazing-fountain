@@ -11,12 +11,12 @@
    * General Features on each page
 * Technologies Used
 * Testing
-* Remote & Local Development
+* Deplyment
   * How to Fork
   * How to Cone
 * Credit
 
-![](readmeImages/iAmResponsive.png)
+![](assets/readmeImages/amIresponsive.png)
 
 # Amazing Fountain
 ***
@@ -49,23 +49,23 @@ This is my first project with Code Institute. This project is about the most bea
 
   * Desktop wireframes
 
- ![desktop wireframe home page](readmeImages/wireframeDesktopHome.png)
+ ![desktop wireframe home page](assets/readmeImages/wireframeDesktopHome.png)
 
- ![wireframe gallery page](readmeImages/wireframeDesktopGallery.png)
+ ![wireframe gallery page](assets/readmeImages/wireframeDesktopGallery.png)
 
- ![wireframe feedback page](readmeImages/wireframeDesktopFeedback.png)
+ ![wireframe feedback page](assets/readmeImages/wireframeDesktopFeedback.png)
 
   * Mobile wireframes
 
- ![mobile home page wireframe](readmeImages/wireframeMobileHome.png)
+ ![mobile home page wireframe](assets/readmeImages/wireframeMobileHome.png)
 
- ![mobile gallery wireframe](readmeImages/wireframeMobileGallery.png)
+ ![mobile gallery wireframe](assets/readmeImages/wireframeMobileGallery.png)
  
- ![mobile contact wireframe](readmeImages/wireframeMobileFeedback.png)
+ ![mobile contact wireframe](assets/readmeImages/wireframeMobileFeedback.png)
 
-### Colour Sheme
+### Colour Scheme
 The colors were chosen as they complemented the light blue and purple color of the picture on the main page.The colour palette was created using the [Coolors](https://coolors.co/adb2dc-898fbf-b5caec-607bcd-000000-ffffff)
-![Colour sheme](readmeImages/colours.png)
+![Colour sheme](assets/readmeImages/colours.png)
 
 ### Typography
 
@@ -86,7 +86,7 @@ The site contains common features such as a navigation bar and footer, familiar 
 ### Logo
 The Logo is in the middle of the page with large black  letters, the font was used for this is "Inter".
 
-![Logo](readmeImages/logo.png)
+![Logo](assets/readmeImages/logo.png)
 
 ### Navigation Buttons
 Featured on all three pages, the full responsive navigation bar includes links to the  Home page, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
@@ -95,32 +95,30 @@ Featured on all three pages, the full responsive navigation bar includes links t
 
   2. Navigation bar will always stay on top of the screen when scrolling to allow easy access to other pages.
 
-  ![Navigation Bar](readmeImages/navicationBar.png)
+  ![Navigation Bar](assets/readmeImages/navicationBar.png)
 
 ### Facts About Fountains
- the user will be able to read about the most intresting facts about fountains:
+ The user will be able to read about the most intresting facts about fountains:
   1. When the first fountain appeared.
   2. Who create the first fountain.
   3. Why are fountains called "fountain".
   4. Which is the oldest fountain in the world.
 
-  ![Facts](readmeImages/FactsAboutFountains.png)
+  ![Facts](assets/readmeImages/factsAboutFountains.png)
 ### Gallery
 Gallery page is a page where the user can see beautiful pictures of each popular fountain, above each picture there will be a small description about the fountain,such as where is located , when it appeard and in which countrt or city is located.
 
-![Gallery](readmeImages/gallery.png)
+![Gallery](assets/readmeImages/gallery.png)
 
 ### Contact Us
   On the page "Contact Us" user will be able to choose his favorite fountain, which even in the future he will be able to visit.
 
-  ![Contact Us](readmeImages/feedbackForm.png)
-
-
+  ![Contact Us](assets/readmeImages/feedbackForm.png)
 
 ### Footer 
 This is the regular footer with the social icons displayed:
 
-![Footer](readmeImages/footer.png)
+![Footer](assets/readmeImages/footer.png)
 
   ## Technologies Used
   ***
@@ -144,18 +142,29 @@ The site had been tested in Chrome,Firefox without noticable trouble.
 The site was tested on numerous devices and it worked well on all. The devices used for testing were a ASUS Vivobook Laptop, an iMac, an iphone 11 iphone 6 and a Samsung s22.
 
  * No issues found
+    * Home page validator
 
- ![HTML Validator](readmeImages/htmlValidator.png)
+ ![home page Validator](assets/readmeImages/indexValidator.png)
 
  * no issues found
+     * Gallery page validator
 
- ![CSS Validator](readmeImages/cssValidator.png)
+ ![gallery page](assets/readmeImages/gallaryValidator.png)
+
+* no issues found
+    * Contact page validator
+  ![Contact us ](assets/readmeImages/contactValidator.png)
+
+
+ * no issues found 
+      * Css validator
+  ![CSS validator](assets/readmeImages/cssValidator.png)
 
  * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
     * Mobile Home Page
- ![Mobile Home Page](readmeImages/mobileTestHome.png)
+ ![Mobile Home Page](assets/readmeImages/mobileTestHome.png)
    *  Desktop Gallery Page
- ![Desktop Gallery Page](readmeImages/desktopGallery.png)
+ ![Desktop Gallery Page](assets/readmeImages/desktopGallery.png)
  
   * Manually check :
 
@@ -166,30 +175,29 @@ The site was tested on numerous devices and it worked well on all. The devices u
  |  external link and open in new tab | Click on each footer icons | Pass |
  | Contact us form can not be submitted without required details| Fill in certain fields in form to check if it's allowed to submit| Pass|
  | Contact us form redirects to thankyou.html | Fill in all form fields and click submit | Pass |
- | Website works with different browsers | Tested Chrome, Firefox, Safari | Pass |
+ | Website works with different browsers | Tested Chrome, Firefox | Pass |
  | Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with iphone 11, Ipad Air| Faile |
 
 ## Deployment & Local Deployment
  ***
- #### Deployment
+ #### Deployment GitHub pages
  * Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in/Sign Up to Github.
-2. Find the Castleisland-Christmas-Markets repository.
+2. Find the amazing fountain repository.
 3. Go to Settings > Pages.
 4. In the Source section, choose Main from the drop down select branch menu. Select Root from the drop down select folder menu.
 5. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-#### Local Deployment
-
+#### Cloning Repository
  * How to Clone
 
 1. Log in/Sign Up to Github.
-2. Find the Castleisland-Christmas-Markets repository.
+2. Find amaizing fountain repository.
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
+#### Fork Repository
 * Fork the GitHub Repository
 
 1. Forking the GitHub Repository makes a copy of the original repository on our GitHub account; allowing us to view and/or make changes without affecting the original repository and can be done by using the following steps.
