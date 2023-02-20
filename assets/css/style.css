@@ -240,7 +240,7 @@ hr {
   flex: 0 25%;
   background-color: #fff;
   margin: 20px;
-  margin-top: 80px;
+  margin-top: 50px;
   border-radius: 15px 15px 0 0;
 }
 .card-image {
@@ -413,56 +413,132 @@ footer>p {
 /* media queries */
 
 /* For large to medium screen size from 1100px wide and down */
-@media screen and (max-width:1100px) {
-    h1 {
-      font-size: 30px;
+@media screen and (max-width:1000px) {
+  .image-outer {
+    height: 40px;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+  hr {
+    border-top: 1px solid #898fbf;
+    width: 100%;
+    margin: 5px 0;
+    margin-left: 54px;
+  }
+  
+  .left-fact-heading {
+     width: 80%; 
+    float: right;
+    clear: both;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    word-wrap: break-word;
+  }
+  
+  .right-fact-heading {
+     width: 75%; 
+    float: left;
+    clear: both;
+    text-indent: 20px; 
+  }
+  
+  .right-fact-heading h2 {
+   left: 31px;
+    font-size: 26px;
+    line-height: 24px;
+    margin-top: 81px
+  }
+  .left-fact-heading h2 {
+   left: 31px;
+    font-size: 26px;
+    line-height: 24px;
+  }
+  .right-fact-heading p {
+    text-align: justify;
+    width: 250px; 
+    text-indent: 8px;
+    margin: 8px;
+  }
+  .left-fact-heading p {
+    text-align: justify;
+    width: 250px;
+    text-indent: 8px;
+    margin: 34px;
+  }
+  #welcome {
+    text-align: center;
+    font-size: 260%;
+  }
+  
+  #circle {
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 31em;
+    margin-left: -22px;
+  }
+    
+   
     }
-    #image-outer {
-      width: 65%;
-      margin: 0 auto;
-      display: flex;
+    @media screen and (max-width:980px) {
+      .card-image {
+        width: 420px;
+        height: 420px;
+      }
     }
-    #welcome {
-      padding: 30px 0;
-      margin: 0;
-    }
+  @media screen and (max-width:950px) {
+      
     #left-fact, #right-fact {
       width: 100%;
-      float: left;
+      float: inherit;
   }
-  .right-fact-heading h2 {
-    text-align: center;
-    font-size: 32px;
-    line-height: 32px;
-    margin-left: 59px;
-   }
+  
     .left-fact-heading h2 {
     text-align: center;
     font-size: 32px;
     line-height: 32px;
-    margin-left: -30px;
+    margin-left: -8rem;
   } 
    .right-fact-heading p {
-   text-indent: 30px;
-   text-align: left;
-   margin-left: 59px;
-  }
+    text-indent: 5px;
+    width: 100%;
+    margin-left: 4rem;
+   }
   .left-fact-heading p {
-   text-align: left;
-   text-indent: 30px;
-   
+   text-indent: 5px;
+   width: 100%;
+   margin-left: -2rem;
   }
     hr {
       display: none;
     }
-    #center-fact {
-      clear: both;
-      width: 100%;
-      padding-block-end: 45px
-     }     
-     
+
+   .card-image {
+    width: 420px;
+    height: 420px;
   }
-  @media screen and (max-width:900px) {
+  form h2 {
+    font-size: 28px;
+  }
+  #button {
+    background-color: #607bcdc4;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 42%;
+    display: flow-root;
+    font-size: 20px;
+}
+  }
+  @media screen and (max-width:920px) {
     #welcome {
       padding: 30px 0;
       margin: 0;
@@ -564,10 +640,7 @@ footer>p {
       margin: 0 auto;
       display: flex;
     }
-    #welcome {
-      padding: 30px 0;
-      margin: 0;
-    }
+   
     #center-fact {
       clear: both;
       width: 100%;
@@ -578,18 +651,8 @@ footer>p {
       width: 100%;
       float: inherit;
   }
-  .right-fact-heading h2 {
-    text-align: center;
-    font-size: 32px;
-    line-height: 32px;
-    margin-left: 59px;
-   }
-    .left-fact-heading h2 {
-    text-align: center;
-    font-size: 32px;
-    line-height: 32px;
-    margin-left: -30px;
-  } 
+  
+    
    .right-fact-heading p {
     text-indent: 5px;
     font-size: 20px;
@@ -692,7 +755,7 @@ footer>p {
    .left-fact-heading p {
    text-align: left;
    text-indent: 7px;
-  
+   margin-left: 5px;
   }
     hr {
       display: none;
@@ -732,7 +795,8 @@ footer>p {
    .left-fact-heading p {
    text-align: left;
    text-indent: 7px;
-  
+   margin-left: 16px;
+   
   }
     hr {
       display: none;
@@ -768,12 +832,12 @@ footer>p {
    .right-fact-heading p {
    text-indent: 8px;
    text-align: left;
-   
+   margin-left: 51px
   }
    .left-fact-heading p {
    text-align: left;
    text-indent: 7px;
-  
+   margin-left: 25px
   }
     hr {
       display: none;
