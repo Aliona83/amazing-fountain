@@ -38,7 +38,7 @@ h1 {
 }
 .logo {
   font-size: 40px;
-  /* text-align: center; */
+   text-align: center; 
 }
 h2 {
   font-family: Roboto sans-serif;
@@ -200,12 +200,12 @@ hr {
 }
 .right-fact-heading p {
   text-align: justify;
-  width: 23em;
+  width: 300px; 
   text-indent: 8px;
 }
 .left-fact-heading p {
   text-align: justify;
-  width: 23em;
+  width: 300px;
   text-indent: 8px;
 }
 #welcome {
@@ -273,7 +273,7 @@ hr {
 
 .form-section {
  
-  background: url("../images/water.webp");
+  background: url("../images/water.webp") no-repeat center center;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -450,7 +450,7 @@ footer>p {
   .left-fact-heading p {
    text-align: left;
    text-indent: 30px;
-   margin-left: -132px;
+   
   }
     hr {
       display: none;
@@ -462,8 +462,100 @@ footer>p {
      }     
      
   }
-  /* For medium screen size from 950px wide and down */
-  /* @media screen and (max-width:480px) {
+  @media screen and (max-width:900px) {
+    #welcome {
+      padding: 30px 0;
+      margin: 0;
+    }
+      
+    #left-fact, #right-fact {
+      width: 100%;
+      float: inherit;
+  }
+  
+    .left-fact-heading h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: -8rem;
+  } 
+   .right-fact-heading p {
+    text-indent: 5px;
+    width: 100%;
+    margin-left: 4rem;
+   }
+  .left-fact-heading p {
+   text-indent: 5px;
+   width: 100%;
+   margin-left: -2rem;
+  }
+    hr {
+      display: none;
+    }
+
+   .card-image {
+    width: 380px;
+    height: 380px;
+  }
+  form h2 {
+    font-size: 28px;
+  }
+  #button {
+    background-color: #607bcdc4;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 42%;
+    display: flow-root;
+    font-size: 20px;
+}
+  }
+  @media screen and (max-width:835px) {
+    .card-image {
+      width: 340px;
+      height: 340px;
+    }
+  }
+  @media screen and (max-width:800px) {
+  
+    #welcome {
+      padding: 30px 0;
+      margin: 0;
+    }
+      
+    #left-fact, #right-fact {
+      width: 100%;
+      float: inherit;
+  }
+  
+    .left-fact-heading h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: -8rem;
+  } 
+   .right-fact-heading p {
+    text-indent: 5px;
+    width: 100%;
+    margin-left: 4rem;
+   }
+  .left-fact-heading p {
+   text-indent: 5px;
+   width: 100%;
+   margin-left: -2rem;
+  }
+    hr {
+      display: none;
+    }
+
+   .card-image {
+    width: 340px;
+    height: 340px;
+  }
+  }
+  @media screen and (max-width:760px) {
     h1 {
       font-size: 30px;
     }
@@ -499,30 +591,213 @@ footer>p {
     margin-left: -30px;
   } 
    .right-fact-heading p {
-   text-indent: 30px;
-   text-align: left;
-   margin-left: 59px;
-  }
+    text-indent: 5px;
+    font-size: 20px;
+    width: 100%;
+   }
   .left-fact-heading p {
-   text-align: left;
-   text-indent: 30px;
-   margin-left: -132px;
+   text-indent: 5px;
+   font-size: 20px;
+   width: 100%;
   }
     hr {
       display: none;
     }
-  } */
+
+   .card-image {
+    width: 300px;
+    height: 300px;
+  }
+  }
+  
+  @media screen and (max-width:720px) {
+    h1 {
+      font-size: 30px;
+    }
+    #image-outer {
+      width: 65%;
+      margin: 0 auto;
+      display: flex;
+    }
+    #welcome {
+      padding: 30px 0;
+      margin: 0;
+    }
+    #center-fact {
+      clear: both;
+      width: 100%;
+      padding-block-end: 45px;
+     }     
+     
+    #left-fact, #right-fact {
+      width: 100%;
+      float: inherit;
+  }
+  .right-fact-heading h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: 59px;
+   }
+    .left-fact-heading h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    margin-left: -30px;
+  } 
+   .right-fact-heading p {
+    text-indent: 5px;
+    font-size: 20px;
+    width: 100%;
+   }
+  .left-fact-heading p {
+   text-indent: 5px;
+   font-size: 20px;
+   width: 100%;
+  }
+    hr {
+      display: none;
+    }
+
+   .card-image {
+    width: 300px;
+    height: 300px;
+  }
+  }
+  @media screen and (max-width:680px)  {
+    h1 {
+      font-size: 30px;
+    }
+    #image-outer {
+      width: 65%;
+      margin: 0 auto;
+      display: flex;
+    }
+    #welcome {
+      padding: 30px 0;
+      margin: 0;
+    }
+    #center-fact {
+      clear: both;
+      width: 100%;
+      padding-block-end: 45px;
+     }     
+     
+  
+   .right-fact-heading p {
+   text-indent: 8px;
+   text-align: left;
+   
+  }
+   .left-fact-heading p {
+   text-align: left;
+   text-indent: 7px;
+  
+  }
+    hr {
+      display: none;
+    }
+
+  
+   .card-image {
+    width: 280px;
+    height: 280px;
+  }
+  }
+  @media screen and (max-width:640px) {
+    h1 {
+      font-size: 30px;
+    }
+    #image-outer {
+      width: 65%;
+      margin: 0 auto;
+      display: flex;
+    }
+    #welcome {
+      padding: 30px 0;
+      margin: 0;
+    }
+    #center-fact {
+      clear: both;
+      width: 100%;
+      padding-block-end: 45px;
+     }     
+     
+  
+   .right-fact-heading p {
+   text-indent: 8px;
+   text-align: left;
+   
+  }
+   .left-fact-heading p {
+   text-align: left;
+   text-indent: 7px;
+  
+  }
+    hr {
+      display: none;
+    }
+
+  
+   .card-image {
+    width: 260px;
+    height: 260px;
+  }
+  }
+  /* For medium screen size from 950px wide and down */
+  @media screen and (max-width:600px) {
+    h1 {
+      font-size: 30px;
+    }
+    #image-outer {
+      width: 65%;
+      margin: 0 auto;
+      display: flex;
+    }
+    #welcome {
+      padding: 30px 0;
+      margin: 0;
+    }
+    #center-fact {
+      clear: both;
+      width: 100%;
+      padding-block-end: 45px;
+     }     
+     
+  
+   .right-fact-heading p {
+   text-indent: 8px;
+   text-align: left;
+   
+  }
+   .left-fact-heading p {
+   text-align: left;
+   text-indent: 7px;
+  
+  }
+    hr {
+      display: none;
+    }
+
+  .card {
+    margin-left: 41px ;
+  }
+   .card-image {
+    width: 470px;
+    height: 470px;
+  }
+  }
 
   
   /* For medium screen size from 768px wide and down */
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 500px) {
     .logo {
-      font-size: 42px;
-      margin-left: 66px;
+      font-size: 38px;
+      margin-left: 14px;
       }
      
       #welcome {
-        font-size: 40px;
+        font-size: 32px;
       }
       form h2 {
       font-size: 23px;
@@ -545,15 +820,15 @@ footer>p {
     }
      .right-fact-heading h2 {
      text-align: left;
-     font-size: 32px;
+     font-size: 26px;
      line-height: 32px;
-     margin-left: 59px;
+     
     }
      .left-fact-heading h2 {
      text-align: left;
-     font-size: 32px;
+     font-size: 26px;
      line-height: 32px;
-     margin-left: -30px;
+     margin-left: 12px;
    } 
     .right-fact-heading p {
       text-align: left;
@@ -578,12 +853,90 @@ footer>p {
     margin-left: 12px ;
   }
    .card-image {
-    width: 450px;
-    height: 450px;
+    width: 426px;
+    height: 426px;
   }
 }
+@media screen and (max-width:450px) {
+  .logo {
+    font-size: 32px;
+    }
+    #welcome {
+      font-size: 31px;
+    }
+    input[type="text"], input[type="email"] {
+      width: 50%;
+    }
+    form h2 {
+    font-size: 18px;
+    margin-top: 48px;
+    font-weight: bolder;
+   }  
+   .contact-h2 {
+   font-size: 28px;
+   }
+   .radio-pair {
+    background-color: #6098c945;
+    margin-left: 63px;
+   }
+   .form-section label {
+    display: block;
+    text-align: center;
+    margin: 6px;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+   .right-fact-heading h2 {
+   text-align: center;
+   font-size: 28px;
+   line-height: 20px;
+   margin-left: -4px;
+  }
+   .left-fact-heading h2 {
+   text-align: center;
+   font-size: 28px;
+   line-height: 20px;
+ } 
+  .right-fact-heading p {
+  font-size: 19px;
+  text-indent: 8px;
+  width: 100%;
+  
+ }
+ .left-fact-heading p {
+  font-size: 19px;
+  text-align: left;
+  text-indent: 8px;
+  width: 100%;
+  margin-left: 33px;
+ }  
+ #circle {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50%;
+ }
+.card {
+  margin-left: 18px;
+}
+ .card-image {
+    width: 380px;
+    height: 380px;
+    
+}
+
+.social i {
+  font-size: 142%;
+  color: black;
+  margin-top: 9px;
+}
+  }
+  
    /* For small screen size from 480px wide and down */
-   @media screen and (max-width:450px) {
+   @media screen and (max-width:420px) {
     .logo {
       font-size: 32px;
       }
@@ -615,13 +968,13 @@ footer>p {
      .right-fact-heading h2 {
      text-align: center;
      font-size: 28px;
-     line-height: 20px;
+     line-height: 25px;
      margin-left: -4px;
     }
      .left-fact-heading h2 {
      text-align: center;
      font-size: 28px;
-     line-height: 20px;
+     line-height: 25px;
    } 
     .right-fact-heading p {
     font-size: 19px;
@@ -649,8 +1002,8 @@ footer>p {
     margin-left: 18px;
   }
    .card-image {
-      width: 400px;
-      height: 400px;
+      width: 370px;
+      height: 370px;
       
   }
 
@@ -664,7 +1017,7 @@ footer>p {
      /* For smallest screen size from 340px wide and down */
  @media screen and (max-width: 400px) {
     .logo {
-    font-size: 38px;
+    font-size: 30px;
     }
     #welcome {
       font-size: 34px;
@@ -694,13 +1047,13 @@ footer>p {
    .right-fact-heading h2 {
    text-align: center;
    font-size: 25px;
-   line-height: 20px;
+   line-height: 25px;
    margin-left: -4px;
   }
    .left-fact-heading h2 {
    text-align: center;
    font-size: 25px;
-   line-height: 20px;
+   line-height: 25px;
  } 
   .right-fact-heading p {
   font-size: 18px;
@@ -782,4 +1135,6 @@ footer>p {
  
  
   
-   
+  
+
+
