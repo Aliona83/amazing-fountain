@@ -206,6 +206,9 @@ The site was tested on numerous devices and it worked well on all. The devices u
 Once in the repository, navigate to the "Fork" button at the top right of the page; just above the settings button on the menu.
 3. You should now have a copy of the original repository in your GitHub account.
  
- ## Credit 
-
+ ## Credit
  ***
+[Pexel](https://www.pexels.com/ru-ru/)- got all images for website .
+[Google font](https://fonts.google.com/about) - was used to import the font that was used.
+[Css tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+[Responsive cards](https://www.youtube.com/watch?v=qXRYMdvq_Dc&t=481s) - help me to do 6 responsive card in gallery page.
