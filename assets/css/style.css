@@ -140,22 +140,19 @@ nav a:hover {
   background-position: center;
 }
  /* section about fountains */
-.image-outer {
-  height: 40px;
-  width: 90%;
-  overflow: hidden;
+#fountains-fact {
+  width: 95%;
 }
-
 #left-fact {
-  width: 25%;
+  width: 33%;
   float: left;
-  margin-left: -4em;
+  
 }
 
 #right-fact {
-  width: 25%;
+  width: 33%;
   float: right;
-  margin-right: 2em;
+  
 }
 
 #center-fact {
@@ -171,19 +168,13 @@ hr {
 }
 
 .left-fact-heading {
-   width: 80%; 
-  float: right;
+  float: right; 
   clear: both;
-  margin-bottom: 20px;
-  text-indent: 20px;
-  word-wrap: break-word;
 }
 
 .right-fact-heading {
-   width: 75%; 
-  float: left;
+  float: left; 
   clear: both;
-  text-indent: 20px; 
 }
 
 .right-fact-heading h2 {
@@ -199,14 +190,13 @@ hr {
   line-height: 24px;
 }
 .right-fact-heading p {
-  text-align: justify;
-  width: 300px; 
-  text-indent: 8px;
+  text-align: justify; 
+  width: 100%; 
+  
 }
 .left-fact-heading p {
-  text-align: justify;
-  width: 300px;
-  text-indent: 8px;
+   text-align: justify; 
+   width: 100%;
 }
 #welcome {
   text-align: center;
@@ -226,7 +216,7 @@ hr {
 }
 
 #circle-cover {
-  background: url("../images/circleOnejpg.jpg") no-repeat, center center;
+  background: url("../images/circleOnejpg.jpg") center;
   height: 100%;
   border-radius: 50%;
 }
@@ -366,26 +356,17 @@ input[type="email"] {
 /* create footer */
 
 .footer {
-  /* width: 100%; */
   background-color: #9296b7bf;
-  /* color: black; */
   text-align: center;
-  /* padding: 1rem; */
-  /* margin-top: auto; */
-  /* grid-column: 1 / -1; */
-    clear: both;
-    position: relative;
-    height: 80px;
+  clear: both;
+  display: grid;
 }
 
 footer p {
   text-align: center;
   font-weight: bold;
-  margin-left: 45px;
 }
- p {
-  margin: 20px;
- }
+
 footer>p {
   font-size: small;
   text-align: left;
@@ -572,13 +553,12 @@ footer>p {
   } 
    .right-fact-heading p {
     text-indent: 5px;
-    width: 100%;
+    
     
    }
   .left-fact-heading p {
    text-indent: 5px;
-   width: 100%;
-  
+    margin: auto 0;
   }
 
   #center-fact {
@@ -644,19 +624,19 @@ footer>p {
   
     .left-fact-heading h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 29px;
     line-height: 32px;
     margin-left: -8rem;
   } 
    .right-fact-heading p {
     text-indent: 5px;
-    width: 100%;
+    width: 631px;
+   
    
    }
   .left-fact-heading p {
    text-indent: 5px;
-   width: 100%;
-  
+   margin: auto 0;
   }
   #circle {
     width: 400px;
@@ -704,12 +684,14 @@ footer>p {
    .right-fact-heading p {
     text-indent: 5px;
     font-size: 20px;
-    width: 100%;
+    width: 550px;
+    
    }
   .left-fact-heading p {
    text-indent: 5px;
    font-size: 20px;
-   width: 100%;
+   width: 550px;
+   margin: auto 0;
   }
     hr {
       display: none;
@@ -755,13 +737,14 @@ footer>p {
   } 
    .right-fact-heading p {
     font-size: 20px;
-    margin: 25px;
+    width: 550px;
     
    }
   .left-fact-heading p {
    text-indent: 5px;
    font-size: 20px;
-   width: 100%;
+   width: 550px;
+   margin: auto 0;
   }
   #circle {
     width: 400px;
@@ -1305,7 +1288,7 @@ footer>p {
   margin-top: 9px;
 }
   .logo {
-    font-size: 28px;
+    font-size: 26px;
   }
   #center-fact {
     clear: both;
@@ -1314,8 +1297,8 @@ footer>p {
    
    }     
    #circle {
-    width: 300px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
     padding: 15px;
     border-style: solid;
     border-width: 1px;

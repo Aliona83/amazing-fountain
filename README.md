@@ -208,7 +208,7 @@ Once in the repository, navigate to the "Fork" button at the top right of the pa
  
  ## Credit
  ***
-[Pexel](https://www.pexels.com/ru-ru/)- got all images for website .
-[Google font](https://fonts.google.com/about) - was used to import the font that was used.
-[Css tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-[Responsive cards](https://www.youtube.com/watch?v=qXRYMdvq_Dc&t=481s) - help me to do 6 responsive card in gallery page.
+* [Pexel](https://www.pexels.com/ru-ru/)- got all images for website .
+* [Google font](https://fonts.google.com/about) - was used to import the font that was used.
+* [Css tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [Responsive cards](https://www.youtube.com/watch?v=qXRYMdvq_Dc&t=481s) - help me to do 6 responsive card in gallery page.
