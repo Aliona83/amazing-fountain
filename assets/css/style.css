@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Inter&family=Roboto&display=swap");
+
 html {
   height: 100%;
 }
+
 :root {
   --background: #adb2dcbf;
 }
@@ -19,7 +21,7 @@ body {
   background-color: #b5caec69;
   min-height: 100%;
 
-  display: grid;
+   display: grid; 
 }
 
 /* navication style */
@@ -36,10 +38,12 @@ h1 {
   font-family: Inter sans-serif;
   font-size: 33px;
 }
+
 .logo {
   font-size: 40px;
-   text-align: center; 
+  text-align: center;
 }
+
 h2 {
   font-family: Roboto sans-serif;
   text-align: center;
@@ -77,7 +81,6 @@ nav a {
   transition: opacity 150ms ease-in-out;
   right: -10rem;
   font-weight: bold
-
 }
 
 nav a:hover {
@@ -100,7 +103,7 @@ nav a:hover {
   height: 100%;
   display: flex;
   align-items: center;
-}
+} 
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
@@ -132,6 +135,7 @@ nav a:hover {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
+
 /* header image */
 #image {
   background: url("../images/mainPicture.webp");
@@ -139,65 +143,72 @@ nav a:hover {
   background-size: cover;
   background-position: center;
 }
- /* section about fountains */
-#fountains-fact {
-  width: 95%;
-}
+
+/* section about fountains */
+/* #fountains-fact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+} */
 #left-fact {
-  width: 33%;
+   width: 33%; 
   float: left;
-  
+  margin: auto 0 ;
 }
 
 #right-fact {
   width: 33%;
-  float: right;
-  
-}
+  float: left;
+  margin: auto 0;
+
+} 
 
 #center-fact {
   width: 33%;
   margin: 0 auto;
 }
 
-hr {
+ hr {
   border-top: 1px solid #898fbf;
   width: 100%;
   margin: 5px 0;
-  margin-left: 54px;
-}
+} 
 
 .left-fact-heading {
-  float: right; 
+  float: right;
   clear: both;
+  margin: 10px;
 }
 
 .right-fact-heading {
-  float: left; 
+  float: left;
   clear: both;
+  margin: 10px;
 }
 
 .right-fact-heading h2 {
- position: relative;
- left: 36px;
+  position: relative;
   font-size: 28px;
   line-height: 24px;
 }
+
 .left-fact-heading h2 {
   position: relative;
- left: 36px;
   font-size: 28px;
   line-height: 24px;
 }
+
 .right-fact-heading p {
-  text-align: justify; 
-  width: 100%; 
-  
+  text-align: justify;
+  width: 100%;
+
 }
+
 .left-fact-heading p {
-   text-align: justify; 
-   width: 100%;
+  text-align: justify;
+  width: 100%;
 }
+
 #welcome {
   text-align: center;
   font-size: 260%;
@@ -220,12 +231,14 @@ hr {
   height: 100%;
   border-radius: 50%;
 }
+
 /* gallery page*/
 .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .card {
   flex: 0 25%;
   background-color: #fff;
@@ -233,6 +246,7 @@ hr {
   margin-top: 50px;
   border-radius: 15px 15px 0 0;
 }
+
 .card-image {
   height: 450px;
   width: 450px;
@@ -240,21 +254,27 @@ hr {
   background-size: cover;
   border-radius: 15px 15px 0 0;
 }
+
 .box-1 {
   background-image: url("../images/bellagio.webp");
 }
+
 .box-2 {
   background-image: url("../images/buckinghamFountain.jpg");
 }
+
 .box-3 {
   background-image: url("../images/kingFahd.webp");
 }
+
 .box-4 {
   background-image: url("../images/dubai.webp");
 }
+
 .box-5 {
   background-image: url("../images/wealth.webp");
 }
+
 .box-6 {
   background-image: url("../images/montjuic.webp");
 }
@@ -262,7 +282,7 @@ hr {
 /* Contact us */
 
 .form-section {
- 
+
   background: url("../images/water.webp") no-repeat center center;
   background-size: cover;
   background-position: center;
@@ -274,7 +294,7 @@ form h2 {
   text-align: center;
   font-family: Inter, sans-serif;
   font-weight: bolder;
-    font-size: 35px
+  font-size: 35px
 }
 
 input[type="text"],
@@ -308,16 +328,18 @@ input[type="email"] {
 #button:hover,
 #button:focus {
   color: #fff;
-  border: 2em 
-  
+  border: 2em
 }
+
 #dubai {
   position: relative;
- 
+
 }
+
 #wealth {
   position: relative;
 }
+
 #montjuic {
   position: relative;
 }
@@ -325,9 +347,11 @@ input[type="email"] {
 #bellagio {
   position: relative;
 }
+
 #buckingham {
   position: relative;
 }
+
 #king {
   display: inline-flex;
   height: 15px;
@@ -342,7 +366,7 @@ input[type="email"] {
   color: #000;
   justify-content: flex-start;
   align-items: center;
-  width: 400px; 
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -353,6 +377,7 @@ input[type="email"] {
   white-space: nowrap;
   font-size: 25px;
 }
+
 /* create footer */
 
 .footer {
@@ -391,15 +416,13 @@ footer>p {
   margin: 10px;
   color: black;
 }
+
 /* media queries */
 
 /* For large to medium screen size from 1100px wide and down */
+
 @media screen and (max-width:1000px) {
-  .image-outer {
-    height: 40px;
-    width: 90%;
-    overflow: hidden;
-  }
+
   
   hr {
     border-top: 1px solid #898fbf;
@@ -625,9 +648,7 @@ footer>p {
     .left-fact-heading h2 {
     text-align: center;
     font-size: 29px;
-    line-height: 32px;
-    margin-left: -8rem;
-  } 
+    } 
    .right-fact-heading p {
     text-indent: 5px;
     width: 631px;
@@ -1216,112 +1237,5 @@ footer>p {
   border-radius: 50%;
   margin-left: 15px;
  }   
-}
-@media screen and (max-width: 320px) {
- 
-  
-    #welcome {
-      font-size: 34px;
-    }
-    
-    form h2 {
-    font-size: 18px;
-    margin-top: 48px;
-    font-weight: bolder;
-   }  
-   .contact-h2 {
-   font-size: 28px;
-   }
-   .radio-pair {
-    background-color: #6098c945;
-    margin-left: 63px;
-   }
-   .form-section label {
-    display: block;
-    text-align: center;
-    margin: 6px;
-    white-space: nowrap;
-    font-size: 15px;
-  }
-   .right-fact-heading h2 {
-   text-align: center;
-   font-size: 25px;
-   line-height: 25px;
-   margin-left: -4px;
-  }
-   .left-fact-heading h2 {
-   text-align: center;
-   font-size: 25px;
-   line-height: 25px;
- } 
-  .right-fact-heading p {
-  font-size: 18px;
-  text-indent: 8px;
-  text-align: left;
-  width: 100%;
-  margin-left: 36px;
- }
- .left-fact-heading p {
-  font-size: 18px;
-  text-align: left;
-  text-indent: 8px;
-  width: 100%;
-  margin-left: 36px;
- }
- #circle {
-  width: 320px;
-  height: 320px;
-  padding: 15px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  border-radius: 50%;
- }  
-
- .card-image {
-  width: 340px;
-  height: 340px;
-}
-.social i {
-  font-size: 116%;
-  color: black;
-  margin-top: 9px;
-}
-  .logo {
-    font-size: 26px;
-  }
-  #center-fact {
-    clear: both;
-    width: 100%;
-    padding-block-end: 45px;
-   
-   }     
-   #circle {
-    width: 280px;
-    height: 280px;
-    padding: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 50%;
-   
-   }
-  .card {
-    margin-left: 18px;
-  }
-  .card-image {
-    width: 270px;
-    height: 270px;
-}
-.social i {
-  font-size: 116%;
-  color: black;
-  margin-top: 9px;
-} 
-}
- 
- 
-  
-  
-
+}  
 
