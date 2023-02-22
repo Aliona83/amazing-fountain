@@ -21,8 +21,8 @@ body {
   background-color: #b5caec69;
   min-height: 100%;
 
-   display: grid; 
-   grid-template-columns: repeat(2 /2);
+  display: grid;
+  grid-template-columns: repeat(2 /2);
 }
 
 /* navication style */
@@ -104,7 +104,7 @@ nav a:hover {
   height: 100%;
   display: flex;
   align-items: center;
-} 
+}
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
@@ -138,6 +138,11 @@ nav a:hover {
 }
 
 /* header image */
+#welcome {
+  font-size: 260%;
+  text-align: center;
+}
+
 #image {
   background: url("../images/mainPicture.webp");
   height: 550px;
@@ -146,42 +151,32 @@ nav a:hover {
 }
 
 /* section about fountains */
- #fountains-fact {
+
+#fountains-fact {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
   min-width: 230px;
-} 
-/* #left-fact {
-   width: 33%; 
-  float: left;
-  margin: auto 0 ;
 }
-
-#right-fact {
-  width: 33%;
-  float: left;
-  margin: auto 0;
-
-} 
-
 #center-fact {
-  width: 33%;
+  margin-top: -19rem;
+}
+
+#circle {
+  max-width: 400px;
+  height: 400px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50%;
   margin: 0 auto;
-} */
-
-
-.left-fact-heading {
-  float: right;
-  clear: both;
-  margin: 10px;
+  margin-top: 20em;
 }
+#circle-cover {
+  background: url("../images/circleOnejpg.jpg") center;
+  height: 100%;
+  border-radius: 50%;
 
-.right-fact-heading {
-  float: left;
-  clear: both;
-  margin: 10px;
 }
-
 .right-fact-heading h2 {
   position: relative;
   font-size: 28px;
@@ -197,41 +192,19 @@ nav a:hover {
 .right-fact-heading p {
   text-align: justify;
   width: 100%;
-
+  padding: 10px;
 }
 
 .left-fact-heading p {
   text-align: justify;
   width: 100%;
-}
-
-#welcome {
-  text-align: center;
-  font-size: 260%;
-}
-
-#circle {
-  width: 400px;
-  height: 400px;
-  padding: 15px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: 20em;
-}
-
-#circle-cover {
-  background: url("../images/circleOnejpg.jpg") center;
-  height: 100%;
-  border-radius: 50%;
+  padding: 10px;
 }
 
 /* gallery page*/
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -242,7 +215,10 @@ nav a:hover {
   margin-top: 50px;
   border-radius: 15px 15px 0 0;
 }
-
+.card p {
+  text-align: justify;
+  padding: 10px;
+}
 .card-image {
   height: 450px;
   width: 450px;
@@ -250,9 +226,9 @@ nav a:hover {
   background-size: cover;
   border-radius: 15px 15px 0 0;
 }
-
 .box-1 {
   background-image: url("../images/bellagio.webp");
+
 }
 
 .box-2 {
@@ -282,7 +258,7 @@ nav a:hover {
   background: url("../images/water.webp") no-repeat center center;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  min-width: 100%;
 }
 
 form h2 {
@@ -362,7 +338,7 @@ input[type="email"] {
   color: #000;
   justify-content: flex-start;
   align-items: center;
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -414,3 +390,86 @@ footer>p {
 }
 
 /* media queries */
+@media screen and (max-width:420px) {
+  .logo {
+    font-size: 23px;
+  }
+  #welcome {
+    font-size: 230%;
+    margin-left: 8px;
+  }
+
+.right-fact-heading h2 {
+  position: relative;
+  font-size: 23px;
+  line-height: 24px;
+}
+
+.left-fact-heading h2 {
+  position: relative;
+  font-size: 23px;
+  line-height: 24px;
+}
+
+.right-fact-heading p {
+  text-align: justify;
+   font-size: 16px;
+   margin: 5px;
+   padding: 10px;
+}
+
+.left-fact-heading p {
+  text-align: justify;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+}
+
+#circle {
+  max-width: 250px;
+  height: 250px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20em;
+}
+
+.card-image {
+  height: 280px;
+  width: 280px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+ p {
+  padding: 6px;
+  text-align: justify;
+}
+form h2 {
+  color: black;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-weight: bolder;
+  font-size: 23px
+}
+.radio-pair {
+  background-color: #4a96d845;
+  display: flex;
+  color: #000;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 236px;
+  margin: 0 auto;
+}
+.form-section label {
+  display: block;
+  text-align: center;
+  margin: 6px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+}
