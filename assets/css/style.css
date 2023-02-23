@@ -202,63 +202,41 @@ nav a:hover {
 }
 
 /* gallery page*/
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 85px;
 }
-
-.card {
-  flex: 0 25%;
-  background-color: #fff;
-  margin: 20px;
-  margin-top: 50px;
-  border-radius: 15px 15px 0 0;
+.box-container .box {
+  box-shadow: 0 5px 10px rgb(143, 143, 225);
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 20px;
 }
-.card p {
+.box-container .box img {
+  height: 350px;
+}
+.box-container .box h2 {
+  color: #000;
+  font-size: 28px;
+  padding: 10px 0;
+}
+.box-container .box p {
+  color: #000;
+  font-size: 20px;
+  line-height: 1.3;
   text-align: justify;
-  padding: 10px;
-}
-.card-image {
-  height: 450px;
-  width: 450px;
-  margin-bottom: 15px;
-  background-size: cover;
-  border-radius: 15px 15px 0 0;
-}
-.box-1 {
-  background-image: url("../images/bellagio.webp");
-
-}
-
-.box-2 {
-  background-image: url("../images/buckinghamFountain.jpg");
-}
-
-.box-3 {
-  background-image: url("../images/kingFahd.webp");
-}
-
-.box-4 {
-  background-image: url("../images/dubai.webp");
-}
-
-.box-5 {
-  background-image: url("../images/wealth.webp");
-}
-
-.box-6 {
-  background-image: url("../images/montjuic.webp");
 }
 
 /* Contact us */
 
 .form-section {
 
-  background: url("../images/water.webp") no-repeat center center;
+  background: url("../images/water.webp");
   background-size: cover;
   background-position: center;
   min-width: 100%;
+  height: 100vh;
 }
 
 form h2 {
@@ -376,7 +354,7 @@ footer>p {
 .social {
   list-style: none;
   text-align: center;
-  letter-spacing: 6px;
+
 }
 
 .social>li {
@@ -388,9 +366,10 @@ footer>p {
   margin: 10px;
   color: black;
 }
-
+ 
 /* media queries */
-@media screen and (max-width:420px) {
+@media screen and (max-width:420px) {}
+@media screen and (max-width:400px) {
   .logo {
     font-size: 23px;
   }
@@ -437,17 +416,31 @@ footer>p {
   margin-top: 20em;
 }
 
-.card-image {
-  height: 280px;
-  width: 280px;
-  margin-bottom: 15px;
-  background-size: cover;
-  border-radius: 15px 15px 0 0;
-}
  p {
   padding: 6px;
   text-align: justify;
 }
+.box-container .box {
+  box-shadow: 0 5px 10px rgb(143, 143, 225);
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 20px;
+}
+.box-container .box img {
+  height: 250px;
+}
+.box-container .box h2 {
+  color: #000;
+  font-size: 22px;
+  padding: 10px 0;
+}
+.box-container .box p {
+  color: #000;
+  font-size: 17px;
+  line-height: 1.3;
+  text-align: justify;
+}
+
 form h2 {
   color: black;
   text-align: center;
@@ -471,5 +464,24 @@ form h2 {
   white-space: nowrap;
   font-size: 20px;
 }
+ #button { 
+  background-color: #607bcdc4;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 15px auto;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 50%;
+  display: flow-root;
+  font-size: 17px;
+}
 
+
+}
+@media screen and (max-width:320px) {
+  .social {
+    list-style: none;
+    text-align: center;
+    
+  }
 }
