@@ -87,7 +87,7 @@ The Logo is in the middle of the page with large black letters, the font was use
 ![Logo](assets/readmeImages/logo.png)
 
 ### Navigation Buttons
-Featured on all three pages, the full responsive navigation bar includes links to the  Home page, Gallery and Contact Us page and is identical in each page to allow for easy navigation.
+Featured on all three pages, the full responsive navigation bar includes links to the  Home page, Gallery and Contact Us page and is identical on each page to allow for easy navigation.
 
   1. This section will allow users to easily navigate from page to page across all devices.
 
@@ -104,16 +104,16 @@ Featured on all three pages, the full responsive navigation bar includes links t
 
   ![Facts](assets/readmeImages/factsAboutFountain.png)
 ### Gallery
-Gallery page is a page where the user can see beautiful pictures of each popular fountain, above each picture there will be a small description about the fountain,such as where is located , when it appeard and in which countrt or city is located.
+The gallery page is a page where the user can see beautiful pictures of each popular fountain, above each picture, there will be a small description of the fountain, such as where is located, when it appears and in which country or city is located.
 
 ![Gallery](assets/readmeImages/gallery.png)
 
 ### Contact Us
-  On the page "Contact Us" user will be able to choose his favorite fountain, which even in the future he will be able to visit.
+  On the page "Contact Us" user will be able to choose his favourite fountain, which even in the future he will be able to visit.
 
   ![Contact Us](assets/readmeImages/feedbackForm.png)
 ### Thanks you 
-  when the user send his feedback, after this he will taken to the page "Tank you", there is a button "Return to Home page".
+  When the user sends his feedback, after this he will be taken to the page "Tank you", and there is a button "Return to Home page".
 
   ![Thank you](assets/readmeImages/thankYou.png)
 
@@ -139,10 +139,8 @@ This is the regular footer with the social icons displayed:
  
  ## Testing 
  ***
-
-The site had been tested in Chrome,Firefox without noticable trouble.
-The site was tested on numerous devices and it worked well on all. The devices used for testing were a ASUS Vivobook Laptop, an iMac, an iphone 11 iphone 6 and a Samsung s22.
-
+The site had been tested in Chrome, and Firefox without noticeable trouble.
+The site was tested on numerous devices and it worked well on all. The devices used for testing were an ASUS Vivobook Laptop, an iMac, an iPhone 11 iPhone 6 and a Samsung s22.
  * No issues found
     * Home page validator
 
@@ -155,14 +153,17 @@ The site was tested on numerous devices and it worked well on all. The devices u
 
 * no issues found
     * Contact page validator
-  ![Contact us ](assets/readmeImages/contactValidator.png)
+
+ ![Contact us ](assets/readmeImages/contactValidator.png)
 
 * no issues found 
-  ! [Thank you](assets/readmeImages/thankYouValidator.png)
+   * Thank you page
 
- * no issues found 
-      * Css validator
-  ![CSS validator](assets/readmeImages/cssValidator.png)
+ ![Thank you](assets/readmeImages/thankYouValidator.png)
+
+* no issues found 
+   * Css validator
+ ![CSS validator](assets/readmeImages/cssValidator.png)
 
  * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
     * Mobile Home Page
@@ -184,8 +185,9 @@ The site was tested on numerous devices and it worked well on all. The devices u
  | Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with iphone 11, Ipad Air| Faile |
 
  #### Bugs 
- I had many bugs with my media querie on small screens, I had to made minor changes to the code. Add for home page and gallery page display grid,these changes made my media querie on small size screen more flexible.Also my footer and header was covering top and buttom of page when I was scrolling up or down. Issues fixed by making fotter and header sticky, that fooetr and header will be "stick" to the top and buttom of the browser.
-
+ I had many bugs with my media queries on small screens, I had to make minor changes to the code. Add for home page and gallery page display grid, these changes made my media queries on small size screen more flexible. Also, my footer and header were covering the top and bottom of the page when I was scrolling up or down. Issues are fixed by making the footer and header sticky, that footer and header will "stick" to the top and bottom of the browser.
+ #### Unfixed bugs
+ While checking on all devices that I have at home, discovered that my project on the IPad Air tablet,didnt't show up some images, I used Chrome browser and Safari. I spoke about this with my mentor, and it may happen that the IPad tablet is a very old version.
 ## Deployment & Local Deployment
  ***
  #### Deployment GitHub pages
