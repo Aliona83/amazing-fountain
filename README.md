@@ -38,8 +38,6 @@ This is my first project with Code Institute. This project is about the most bea
  * As a user, I to be able to be easily navigate through this site.
  * As a user, I want to be able to access their social media links.
 
-
-
  ## Design
  ***
 
@@ -81,10 +79,10 @@ All images used were taken from free sources which is credited in the credits se
 
 ## Features
 ***
-The site contains common features such as a navigation bar and footer, familiar to all internet users. the user can feel comfortable exploring the pages, make return visits, and enjoy a positive experience.
+The site contains common features such as a navigation bar and footer, familiar to all internet users. The user can feel comfortable exploring the pages, make return visits, and enjoy a positive experience.
 
 ### Logo
-The Logo is in the middle of the page with large black  letters, the font was used for this is "Inter".
+The Logo is in the middle of the page with large black letters, the font was used for this is "Inter".
 
 ![Logo](assets/readmeImages/logo.png)
 
@@ -104,7 +102,7 @@ Featured on all three pages, the full responsive navigation bar includes links t
   3. Why are fountains called "fountain".
   4. Which is the oldest fountain in the world.
 
-  ![Facts](assets/readmeImages/factsAboutFountains.png)
+  ![Facts](assets/readmeImages/factsAboutFountain.png)
 ### Gallery
 Gallery page is a page where the user can see beautiful pictures of each popular fountain, above each picture there will be a small description about the fountain,such as where is located , when it appeard and in which countrt or city is located.
 
@@ -114,6 +112,10 @@ Gallery page is a page where the user can see beautiful pictures of each popular
   On the page "Contact Us" user will be able to choose his favorite fountain, which even in the future he will be able to visit.
 
   ![Contact Us](assets/readmeImages/feedbackForm.png)
+### Thanks you 
+  when the user send his feedback, after this he will taken to the page "Tank you", there is a button "Return to Home page".
+
+  ![Thank you](assets/readmeImages/thankYou.png)
 
 ### Footer 
 This is the regular footer with the social icons displayed:
@@ -155,6 +157,8 @@ The site was tested on numerous devices and it worked well on all. The devices u
     * Contact page validator
   ![Contact us ](assets/readmeImages/contactValidator.png)
 
+* no issues found 
+  ! [Thank you](assets/readmeImages/thankYouValidator.png)
 
  * no issues found 
       * Css validator
@@ -162,8 +166,10 @@ The site was tested on numerous devices and it worked well on all. The devices u
 
  * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
     * Mobile Home Page
+
  ![Mobile Home Page](assets/readmeImages/mobileTestHome.png)
    *  Desktop Gallery Page
+
  ![Desktop Gallery Page](assets/readmeImages/desktopGallery.png)
  
   * Manually check :
@@ -171,12 +177,14 @@ The site was tested on numerous devices and it worked well on all. The devices u
  | Expected Results | Test Taken | Pass/Fale |
  |------------------| -----------| ------------|
  | Navigation links to relevant pages| Click on each navigation bar | Pass |
- | 	Social media icons in the footer link to the correct 
- |  external link and open in new tab | Click on each footer icons | Pass |
+ | 	Social media icons in the footer link to the correct external link and open in new tab | Click on each footer icons | Pass |
  | Contact us form can not be submitted without required details| Fill in certain fields in form to check if it's allowed to submit| Pass|
  | Contact us form redirects to thankyou.html | Fill in all form fields and click submit | Pass |
  | Website works with different browsers | Tested Chrome, Firefox | Pass |
  | Website looks well with different sized screens | Test with devtools for different screen sizes, also tested with iphone 11, Ipad Air| Faile |
+
+ #### Bugs 
+ I had many bugs with my media querie on small screens, I had to made minor changes to the code. Add for home page and gallery page display grid,these changes made my media querie on small size screen more flexible.Also my footer and header was covering top and buttom of page when I was scrolling up or down. Issues fixed by making fotter and header sticky, that fooetr and header will be "stick" to the top and buttom of the browser.
 
 ## Deployment & Local Deployment
  ***
@@ -208,7 +216,9 @@ Once in the repository, navigate to the "Fork" button at the top right of the pa
  
  ## Credit
  ***
-* [Pexel](https://www.pexels.com/ru-ru/)- got all images for website .
-* [Google font](https://fonts.google.com/about) - was used to import the font that was used.
-* [Css tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* [Responsive cards](https://www.youtube.com/watch?v=qXRYMdvq_Dc&t=481s) - help me to do 6 responsive card in gallery page.
+ * [Pexel]- (https://www.pexels.com/ru-ru/)- got all images for website .
+ * [Google font] - (https://fonts.google.com/about) - was used to import the font that was used.
+ * [Css tricks] - (https://css-tricks.com/snippets/css/complete-guide-grid/)
+ * [Responsive cards] - (https://www.youtube.com/watch?v=qXRYMdvq_Dc&t=481s) - help me to do 6 responsive card in gallery page.
+ * [Layouts with CSS] - (https://www.youtube.com/watch?v=S-5bGqNcNcU)
+ * [Grid css] - (https://www.w3schools.com/)
