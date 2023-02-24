@@ -590,6 +590,18 @@ form h2 {
   .logo {
     font-size: 23px;
   }
+  .right-fact-heading p {
+    text-align: justify;
+     font-size: 16px;
+     padding: 25px;
+  }
+  
+  .left-fact-heading p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 25px;
+  }
+  
   .social {
     list-style: none;
     text-align: center;

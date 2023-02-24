@@ -163,6 +163,7 @@ The site was tested on numerous devices and it worked well on all. The devices u
 
 * no issues found 
    * Css validator
+
  ![CSS validator](assets/readmeImages/cssValidator.png)
 
  * I've tested my deployed project using the Lighthouse Audit tool for all of my pages to check for any major issues.
@@ -186,8 +187,10 @@ The site was tested on numerous devices and it worked well on all. The devices u
 
  #### Bugs 
  I had many bugs with my media queries on small screens, I had to make minor changes to the code. Add for home page and gallery page display grid, these changes made my media queries on small size screen more flexible. Also, my footer and header were covering the top and bottom of the page when I was scrolling up or down. Issues are fixed by making the footer and header sticky, that footer and header will "stick" to the top and bottom of the browser.
+ Also during the bugs fix, has been change slightly  the structure of the home page.
  #### Unfixed bugs
- While checking on all devices that I have at home, discovered that my project on the IPad Air tablet,didnt't show up some images, I used Chrome browser and Safari. I spoke about this with my mentor, and it may happen that the IPad tablet is a very old version.
+ While checking on all devices that I have at home, discovered that my project on the IPad Air tablet,didnt't show up some images, I used Chrome browser and Safari. I spoke about this with my mentor, and it may happen that the IPad tablet is a very old version. Just to make sufre that my project works well on tablets, I used Samsung Galaxy Tab S8, everything works perfect,no bugs were found.
+
 ## Deployment & Local Deployment
  ***
  #### Deployment GitHub pages
